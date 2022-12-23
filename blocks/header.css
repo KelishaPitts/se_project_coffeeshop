@@ -51,10 +51,10 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 20px; 
+    line-height: 20px;
     -webkit-transition: background-color 2s linear;
     -o-transition: background-color 2s linear;
-    transition: background-color 2s linear;   
+    transition: background-color 2s linear;
     color: #000000;
     text-decoration: none;
 }
@@ -78,7 +78,7 @@
     top: 202px;
     margin-left: 80px;
     padding-top: 80px;
-    max-width: 729px; 
+    max-width: 729px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -125,7 +125,7 @@
     line-height: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;  
+    display: flex;
     color:#6f6f6f;
     margin:0;
     padding: 0;
