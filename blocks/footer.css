@@ -1,0 +1,108 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap');
+
+.footer {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0A2850), to(#071931));
+    background: -o-linear-gradient(top, #0A2850 0%, #071931 100%);
+    background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 100px 60px 80px;
+  }
+  
+  .footer__columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  
+  }
+  
+
+  
+  .footer__column_content_social {
+    margin-left: auto;
+    
+  }
+  
+  .footer__logo {
+    width: 116px;
+    height: 21px;
+  
+  }
+  
+  .footer__list {
+    /* The code below removes the default browser styles for lists */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__list-item {
+    margin-bottom: 16px;
+  }
+  .footer__list-item:last-of-type{
+    margin-bottom: 0px;
+  }
+  
+  .footer__column-heading {
+    margin: 0 0 20px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px
+    
+  }
+  
+  .footer__column-link {
+    color: #ffffff;
+    font-family:'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: background-color 2s linear;
+    -o-transition: background-color 2s linear;
+    transition: background-color 2s linear; 
+  }
+  .footer__column-link:hover{
+    color: #c1c1c1;
+  }
+  
+  .footer__social-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+  
+  }
+  
+  .footer__copyright {
+    Font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 108px 0 0;
+  
+    
+  }
+  

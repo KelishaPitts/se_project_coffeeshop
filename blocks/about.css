@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap');
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.about {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0A2850), to(#071931));
+  background: -o-linear-gradient(top, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  color: #FFFFFF;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.about__title {
+  font-family:'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px 0 0 80px;
+  z-index: 2;
+  max-width: 251px;
+  
+
+
+}
+
+.about__content {
+  margin: 119px 80px 173px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  max-width: 660px;
+  z-index: 1;
+
+  
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+}
+
+@-webkit-keyframes pulse{
+  0%{
+      opacity: 0;
+
+  }
+
+  50%{
+      opacity: .6;
+
+  }
+
+  100%{
+      opacity: 1;
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+
+  }
+
+
+}
+
+@keyframes pulse{
+  0%{
+      opacity: 0;
+
+  }
+
+  50%{
+      opacity: .6;
+
+  }
+
+  100%{
+      opacity: 1;
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+
+  }
+
+
+}
+
+.about__circle_animation_blurred{
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  left: -129px;
+  top: -152px;
+  -webkit-animation: pulse 1.3s ease-in-out 0s infinite;
+          animation: pulse 1.3s ease-in-out 0s infinite;
+
+}
+

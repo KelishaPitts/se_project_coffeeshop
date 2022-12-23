@@ -1,0 +1,185 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap');
+.reservation{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+background-image: url(../images/background_reservation.svg);
+background-color: #D9E7FF;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+padding: 0;
+-webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+.reservation__title{
+    font-family:'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+.reservation__form{
+    margin: auto auto 120px auto ;
+
+}
+.form__fieldset{
+    max-width: 385px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.form__label{
+    font-family:'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+
+
+.form__input[type="text"]{
+    height: 60px;
+}
+
+.form__input::-webkit-input-placeholder{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    
+
+}
+
+.form__input::-moz-placeholder{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    
+
+}
+
+.form__input:-ms-input-placeholder{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    
+
+}
+
+.form__input::-ms-input-placeholder{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    
+
+}
+
+.form__input::placeholder{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    
+
+}
+
+.form__checkbox-terms{
+    display: block;
+    text-align: center;
+}
+
+.form__checkbox{
+    margin-right: 12px;
+    width: 20px;
+    border-radius: 2px;
+    accent-color: #2F80ED;
+    
+}
+
+
+.form__input{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;  
+    padding: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    height: 60px;
+    width: 385px;
+    border-radius: 4px;
+    border-color: #838383; 
+    
+  
+} 
+
+.form__button{
+    background-color: #2F80ED;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 32px 0;
+    height: 60px;
+    width: 100%;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    opacity: 100%;
+    -webkit-transition: opacity 2s ease;
+    -o-transition: opacity 2s ease;
+    transition: opacity 2s ease; 
+
+}
+
+.form__button:hover{
+    opacity: 70%;
+}

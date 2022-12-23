@@ -1,0 +1,92 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif&display=swap');
+.recipes{
+    background-color: #ffffff;
+    background-image: url(../images/background_recipes.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+
+
+}
+.recipes__title{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family:'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 100px 0 0 80px;
+    max-width: 580px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    padding-bottom: 24px;
+
+    
+
+}
+.recipes__subtitle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    row-gap: 24px;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    margin:0 0 0 80px;
+    max-width: 438px;
+    padding: 0;
+
+}
+.recipes__videos{
+    width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 80px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto;
+    gap: 40px;
+    padding-bottom: 215px;
+
+}
+
+.recipe_video{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.recipes__video-caption{
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px
+
+}
