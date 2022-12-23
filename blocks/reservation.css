@@ -36,7 +36,7 @@ padding: 0;
 
 }
 .reservation__form{
-    margin: auto auto 120px auto ;
+    margin: auto auto 120px auto;
 
 }
 .form__fieldset{
@@ -125,8 +125,11 @@ padding: 0;
     margin-right: 12px;
     width: 20px;
     border-radius: 2px;
+}
+
+.form__checkbox[type=checkbox]{
     accent-color: #2F80ED;
-    
+
 }
 
 
@@ -136,7 +139,7 @@ padding: 0;
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
-    color: #838383;  
+    color: #838383;
     padding: 12px;
     display: -webkit-box;
     display: -ms-flexbox;
