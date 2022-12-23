@@ -82,27 +82,24 @@
             align-items: center;
     -webkit-transition: background-color 2s linear;
     -o-transition: background-color 2s linear;
-    transition: background-color 2s linear; 
+    transition: background-color 2s linear;
   }
   .footer__column-link:hover{
     color: #c1c1c1;
   }
   
-  .footer__social-icon {
+  .footer__social-icon{
     width: 16px;
     height: 16px;
     margin-right: 10px;
-  
   }
   
-  .footer__copyright {
+  .footer__copyright{
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
     margin: 108px 0 0;
-  
-    
   }
   

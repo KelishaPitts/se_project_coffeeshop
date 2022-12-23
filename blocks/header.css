@@ -83,7 +83,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
-    line-height: 72px;  
+    line-height: 72px;
 }
 
 .header__image{
@@ -95,7 +95,7 @@
 }
 
 .header__span-accent{
-    font-family: 'Noto Serif', 'Times New Roman', Times, serif ;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     color: #2F80ED;
     font-style: italic;
     font-weight: normal;
@@ -108,7 +108,7 @@
 
 .header__description{
     display: block;
-    font-family: 'Noto Serif', 'Times New Roman', Times, serif ;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -131,25 +131,25 @@
     padding: 0;
 }
 
-.header__paragraph{ 
-    display:-webkit-box; 
-    display:-ms-flexbox; 
-    display:flex ;    
+.header__paragraph{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
     position: absolute;
-    bottom: 40px;   
-    padding: 0;  
+    bottom: 40px;
+    padding: 0;
     margin: 0;
 }
 
 .header__paragraph_content_hours{
-    margin-left:80px ;
+    margin-left: 80px;
     margin-bottom: 0;
     padding: 0;
 }
 
 .header__paragraph_content_street{
     right: 80px;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 
