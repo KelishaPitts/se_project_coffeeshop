@@ -62,7 +62,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px
+    line-height: 20px;
     
   }
   
@@ -96,7 +96,7 @@
   }
   
   .footer__copyright {
-    Font-family: 'Inter', 'Arial', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

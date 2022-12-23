@@ -55,12 +55,11 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px; 
-    -webkit-transition: background-color 2s linear; 
-    -o-transition: background-color 2s linear; 
+    -webkit-transition: background-color 2s linear;
+    -o-transition: background-color 2s linear;
     transition: background-color 2s linear;   
     color: #000000;
     text-decoration: none;
-
 }
 .nav__link:hover{
     color:#2F80ED; 
