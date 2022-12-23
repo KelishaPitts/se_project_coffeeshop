@@ -17,13 +17,8 @@
     background-size: cover;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    margin: auto; 
+    margin: auto;
     padding: 100px 0 100px 0;
-
-    
-    
-
-
 }
 .menu__title{
     text-align: center;
@@ -71,10 +66,9 @@
 
 }
 .card{
-    max-width: 600px; 
-    -ms-flex-preferred-size: 100%; 
+    max-width: 600px;
+    -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-
 }
 .card__contents{
     display: -webkit-box;
