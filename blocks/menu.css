@@ -39,7 +39,7 @@
     display: block;
     margin: auto;
     max-width: 780px;
-    font-family:'Noto Serif', 'Times New Roman', Times, serif ;
+    font-family:'Noto Serif', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -95,7 +95,7 @@
 
 }
 .card__list{
-    font-family: 'Noto Serif', 'Times New Roman', Times, serif ;
+    font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -117,7 +117,7 @@
 }
 
 .card__list-divider{
-    border-bottom: 1px solid #ffffff ;
+    border-bottom: 1px solid #ffffff;
     -webkit-box-flex: 2;
         -ms-flex-positive: 2;
             flex-grow: 2;
