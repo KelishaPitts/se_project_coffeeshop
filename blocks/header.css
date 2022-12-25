@@ -18,9 +18,29 @@
     box-sizing: border-box;
 }
 
+.header__nav-bar {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
 
 .header__title {
-    display: block;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin: 0 0 0 80px;
     padding-top: 80px;
     max-width: 729px;
@@ -29,22 +49,34 @@
     font-weight: 500;
     font-size: 60px;
     line-height: 72px;
+    z-index: 1;
 }
 
 .header__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     position: absolute;
     top: 124px;
     right: 5px;
     width: 646px;
     height: 568px;
+    z-index: 0;
 }
 
 .header__span-accent {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     color: #2F80ED;
     font-style: italic;
     font-weight: normal;
-    display: block;
     font-size: 60px;
     line-height: 72px;
     margin-bottom: 0;
@@ -52,7 +84,14 @@
 }
 
 .header__description {
-    display: block;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     font-family: 'Noto Serif', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
@@ -61,11 +100,12 @@
     margin: 0 0 0 80px;
     max-width: 683px;
     padding-top: 28px;
+    z-index: 1;
 }
 
 
 
-.header__paragraph{
+.header__paragraph {
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -87,17 +127,4 @@
     position: absolute;
     right: 80px;
     bottom: 40px;
-   
-
-}
-
-.header__list {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.header__list-item {
-    margin: 0;
-    padding: 0;
 }
